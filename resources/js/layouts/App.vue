@@ -13,6 +13,7 @@
       </button>
       <div id="navbarCollapse" class="collapse navbar-collapse">
         <ul class="navbar-nav">
+
           <li class="nav-item">
             <router-link
               class="nav-link"
@@ -32,6 +33,17 @@
               About
             </router-link>
           </li>
+
+          <li class="nav-item">
+            <router-link
+              class="nav-link"
+              data-toggle="collapse"
+              :to="{ name: 'create' }"
+            >
+              Create
+            </router-link>
+          </li>
+
         </ul>
       </div>
     </nav>
